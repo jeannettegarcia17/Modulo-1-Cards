@@ -1,0 +1,29 @@
+$primary: #913fc8;
+$success: #49556B;
+$warning: #4a80d7;
+$danger: #d8dfe8;
+
+
+
+/* Esta media es para pantallas mayores a 992 px, para aplicar esos diseños */
+@media (min-width: 992px) {
+    .alto-100 {
+        height: 100vh;
+    }
+}
+
+.fondo-card{
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 85% top;
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px,
+  xxl: 960px
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
